@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zs0dbZxiyIi9A6nnNFBItTW0WpC3c1KcT5dePNJsergJ97I2l5fCuK1bXJZ3KGy3QEwIz5t3GH62sv53AwxWNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Veterinary\\Veterinary.App\\Veterinary.App.Dominio\\Veterinary.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Santiago\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
