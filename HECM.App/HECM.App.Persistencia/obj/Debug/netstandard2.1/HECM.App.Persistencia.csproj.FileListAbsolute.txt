@@ -1,0 +1,12 @@
+C:\Proyecto\HECM.App\HECM.App.Persistencia\bin\Debug\netstandard2.1\HECM.App.Persistencia.deps.json
+C:\Proyecto\HECM.App\HECM.App.Persistencia\bin\Debug\netstandard2.1\HECM.App.Persistencia.dll
+C:\Proyecto\HECM.App\HECM.App.Persistencia\bin\Debug\netstandard2.1\HECM.App.Persistencia.pdb
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.csprojAssemblyReference.cache
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.AssemblyInfoInputs.cache
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.AssemblyInfo.cs
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.dll
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.pdb
+C:\Proyecto\HECM.App\HECM.App.Persistencia\bin\Debug\netstandard2.1\HECM.App.Dominio.dll
+C:\Proyecto\HECM.App\HECM.App.Persistencia\bin\Debug\netstandard2.1\HECM.App.Dominio.pdb
+C:\Proyecto\HECM.App\HECM.App.Persistencia\obj\Debug\netstandard2.1\HECM.App.Persistencia.csproj.CopyComplete
