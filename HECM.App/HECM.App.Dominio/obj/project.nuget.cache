@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sllGy8pdsV1Uqn50bVEyhN7ZpHshWItuuGDeZpP+WZjt4nmLJBZ0i5feqcXYTaJITLg9hRbngIUgjRlfWHzaKw==",
+  "dgSpecHash": "aP94NTNE3J3IOq4LKPCoo50Qj3KZ8IX8dfg33BJ0Kc39iPFr4x2/WDh/5EedCFiVX/Oweru59nxAogkxUVQzUg==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto\\HECM.App\\HECM.App.Dominio\\HECM.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Santiago\\Desktop\\Repositorio\\Proyecto\\HECM.App\\HECM.App.Dominio\\HECM.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Santiago\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Santiago\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto\\HECM.App\\HECM.App.Persistencia\\HECM.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\Santiago\\Desktop\\Repositorio\\Proyecto\\HECM.App\\HECM.App.Persistencia\\HECM.App.Persistencia.csproj",
       "projectName": "HECM.App.Persistencia",
-      "projectPath": "C:\\Proyecto\\HECM.App\\HECM.App.Persistencia\\HECM.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto\\HECM.App\\HECM.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\Santiago\\Desktop\\Repositorio\\Proyecto\\HECM.App\\HECM.App.Persistencia\\HECM.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Santiago\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Santiago\\Desktop\\Repositorio\\Proyecto\\HECM.App\\HECM.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Proyecto\\HECM.App\\HECM.App.Dominio\\HECM.App.Dominio.csproj": {
-              "projectPath": "C:\\Proyecto\\HECM.App\\HECM.App.Dominio\\HECM.App.Dominio.csproj"
+            "C:\\Users\\Santiago\\Desktop\\Repositorio\\Proyecto\\HECM.App\\HECM.App.Dominio\\HECM.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Santiago\\Desktop\\Repositorio\\Proyecto\\HECM.App\\HECM.App.Dominio\\HECM.App.Dominio.csproj"
             }
           }
         }

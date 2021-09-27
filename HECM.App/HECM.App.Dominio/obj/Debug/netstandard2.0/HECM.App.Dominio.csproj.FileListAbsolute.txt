@@ -7,3 +7,12 @@ C:\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.
 C:\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.dll
 C:\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.pdb
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\bin\Debug\netstandard2.0\HECM.App.Dominio.deps.json
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\bin\Debug\netstandard2.0\HECM.App.Dominio.dll
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\bin\Debug\netstandard2.0\HECM.App.Dominio.pdb
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.csprojAssemblyReference.cache
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.AssemblyInfo.cs
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.dll
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Dominio\obj\Debug\netstandard2.0\HECM.App.Dominio.pdb
