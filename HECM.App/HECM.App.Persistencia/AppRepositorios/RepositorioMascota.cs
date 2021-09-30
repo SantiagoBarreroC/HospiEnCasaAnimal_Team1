@@ -26,6 +26,7 @@ namespace HECM.App.Persistencia{
            var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(m => m.Id ==mascota.Id);
            if(mascotaEncontrado!=null) 
            {
+               mascotaEncontrado.Id=mascota.Id;
                mascotaEncontrado.Nombre=mascota.Nombre;
                mascotaEncontrado.TipoMascota=mascota.TipoMascota;
                mascotaEncontrado.FechaNacimiento=mascota.FechaNacimiento;

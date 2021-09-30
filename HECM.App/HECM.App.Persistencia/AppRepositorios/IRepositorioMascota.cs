@@ -9,8 +9,8 @@ namespace HECM.App.Persistencia
     IEnumerable<Mascota> GetAllMascotas ();
     Mascota AddMascota(Mascota mascota);
     Mascota UpdateMascota(Mascota mascota);
-    void DeleteMascota(int idMascota);
-    Mascota GetMascota(int idMascota);
+    void DeleteMascota(int IdMascota);
+    Mascota GetMascota(int IdMascota);
 
     }
     
