@@ -9,8 +9,8 @@ namespace HECM.App.Dominio
         public DateTime FechaNacimiento {get;set;}
         public Sexo Sexo {get;set;}
         public string Direccion {get;set;}
-        public string Latitud {get;set;}
-        public string Longitud {get;set;}
+        public float Latitud {get;set;}
+        public float Longitud {get;set;}
         public PropietarioDesignado Propietario {get;set;}
         public Veterinario Veterinario {get;set;}
         public Historia Historia {get;set;}
