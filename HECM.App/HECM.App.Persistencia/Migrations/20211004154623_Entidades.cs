@@ -72,8 +72,8 @@ namespace HECM.App.Persistencia.Migrations
                     FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Sexo = table.Column<int>(type: "int", nullable: false),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Latitud = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Longitud = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Latitud = table.Column<float>(type: "real", nullable: false),
+                    Longitud = table.Column<float>(type: "real", nullable: false),
                     PropietarioId = table.Column<int>(type: "int", nullable: true),
                     VeterinarioId = table.Column<int>(type: "int", nullable: true),
                     HistoriaId = table.Column<int>(type: "int", nullable: true)

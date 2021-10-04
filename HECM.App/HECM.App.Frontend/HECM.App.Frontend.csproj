@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\HECM.App.Persistencia\HECM.App.Persistencia.csproj" />
+    <ProjectReference Include="..\HECM.App.Dominio\HECM.App.Dominio.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

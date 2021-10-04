@@ -9,7 +9,8 @@ namespace HECM.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World E!");
-            AddMascota();
+            // AddMascota();
+            BuscarMascota(1);
         }
 
         private static void AddMascota()

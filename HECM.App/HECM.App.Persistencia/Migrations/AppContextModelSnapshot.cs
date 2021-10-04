@@ -53,11 +53,11 @@ namespace HECM.App.Persistencia.Migrations
                     b.Property<int?>("HistoriaId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Latitud")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<float>("Latitud")
+                        .HasColumnType("real");
 
-                    b.Property<string>("Longitud")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<float>("Longitud")
+                        .HasColumnType("real");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
