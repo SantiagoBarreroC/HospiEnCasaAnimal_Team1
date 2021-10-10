@@ -8,12 +8,8 @@ using HECM.App.Persistencia;
 namespace HECM.App.Persistencia{
     public class RepositorioSignoVital: IRepositorioSignoVital
     {
-       private readonly HECM.App.Persistencia.AppContext _appContext;
+       private readonly AppContext _appContext= new AppContext();
 
-       public RepositorioSignoVital(HECM.App.Persistencia.AppContext appContext)
-       {
-           _appContext=appContext;
-       }
        SignoVital IRepositorioSignoVital.AddSignoVital (SignoVital signoVital)
        {
            var signoVitalAdicionado=_appContext.SignosVitales.Add(signoVital);

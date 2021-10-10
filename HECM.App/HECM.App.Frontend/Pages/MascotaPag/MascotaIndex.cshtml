@@ -1,0 +1,31 @@
+﻿@page
+@model HECM.App.Frontend.Pages.MascotaIndexModel
+@{
+}
+<h1>Lista de Mascotas </h1>
+
+<a class="btn btn-primary" asp-page="./Crear">Nueva Mascota</a>
+<table class='table'>
+    <thead>
+        <tr>
+            <th scope= 'col'>ID</th>
+            <th scope= 'col'>Nombre</th>
+            <th scope= 'col'>Tipo de Mascota</th>
+            <th scope= 'col'>Fecha de nacimiento</th>
+            <th scope= 'col'>Actualizar</th>
+            <th scope= 'col'>Eliminar</th>
+        </tr>
+    </thead>
+    @foreach (var p in @Model.Mascotas)
+    {
+        <tr>
+            <td> @p.Id</td>
+            <td> @p.Nombre</td>
+            <td> @p.TipoMascota</td>
+            <td> @p.FechaNacimiento</td>
+            <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@p.Id">Actualizar</a></td>
+            <td><a class="btn btn-secondary" asp-page="./Eliminar" asp-route-id="@p.Id">Eliminar</a></td>
+        </tr>
+    }
+</table>
+

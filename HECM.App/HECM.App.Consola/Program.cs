@@ -9,21 +9,21 @@ namespace HECM.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World E!");
-            // AddMascota();
-            BuscarMascota(1);
+            //AddMascota();
+            //BuscarMascota(1);
         }
 
         private static void AddMascota()
         {
             var mascota=new Mascota
             {
-                Nombre="luna",
-                TipoMascota=TipoMascota.Perro,
-                FechaNacimiento=new DateTime(2010,03,18),
-                Sexo=Sexo.Hembra,
-                Direccion="cra 15",
-                Latitud=3.042F,
-                Longitud=8.65F               
+                Nombre="Joky",
+                TipoMascota=TipoMascota.Gato,
+                FechaNacimiento=new DateTime(2016,09,03),
+                Sexo=Sexo.Macho,
+                Direccion="cra 25 calle 6",
+                Latitud=8.045F,
+                Longitud=2.05F               
             };
             _repoMascota.AddMascota(mascota);
         }

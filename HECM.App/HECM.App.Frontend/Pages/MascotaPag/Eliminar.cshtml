@@ -1,0 +1,17 @@
+﻿@page
+@model HECM.App.Frontend.Pages.MascotaPag.EliminarModel
+@{
+}
+<h1>Eliminar mascota</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="mascota.Id"></label>
+        <input asp-for="mascota.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.Nombre"></label>
+        <input asp-for="mascota.Nombre" class="form-control" required="required">
+    </div>
+</form>
+
+<button type="submit" class="btn btn-primary">Eliminar</button>

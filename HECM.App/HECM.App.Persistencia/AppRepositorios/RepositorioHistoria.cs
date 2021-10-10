@@ -8,12 +8,9 @@ using HECM.App.Persistencia;
 namespace HECM.App.Persistencia{
     public class RepositorioHistoria: IRepositorioHistoria
     {
-       private readonly HECM.App.Persistencia.AppContext _appContext;
+       private readonly AppContext _appContext=new AppContext();
 
-       public RepositorioHistoria(HECM.App.Persistencia.AppContext appContext)
-       {
-           _appContext=appContext;
-       }
+       
        Historia IRepositorioHistoria.AddHistoria (Historia historia)
        {
            var historiaAdicionado=_appContext.Historias.Add(historia);

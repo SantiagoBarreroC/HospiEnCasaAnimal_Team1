@@ -8,12 +8,9 @@ using HECM.App.Persistencia;
 namespace HECM.App.Persistencia{
     public class RepositorioPropietario: IRepositorioPropietario
     {
-       private readonly HECM.App.Persistencia.AppContext _appContext;
+       private readonly AppContext _appContext=new AppContext();
 
-       public RepositorioPropietario(HECM.App.Persistencia.AppContext appContext)
-       {
-           _appContext=appContext;
-       }
+      
        PropietarioDesignado IRepositorioPropietario.AddPropietario (PropietarioDesignado propietario)
        {
            var propietarioAdicionado=_appContext.PropietariosDesignados.Add(propietario);

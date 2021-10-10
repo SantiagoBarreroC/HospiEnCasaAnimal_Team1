@@ -8,12 +8,8 @@ using HECM.App.Persistencia;
 namespace HECM.App.Persistencia{
     public class RepositorioSugerencia: IRepositorioSugerencia 
     {
-       private readonly HECM.App.Persistencia.AppContext _appContext;
+       private readonly AppContext _appContext= new AppContext();
 
-       public RepositorioSugerencia(HECM.App.Persistencia.AppContext appContext)
-       {
-           _appContext=appContext;
-       }
        SugerenciaCuidado IRepositorioSugerencia.AddSugerencia (SugerenciaCuidado sugerencia)
        {
            var sugerenciaAdicionado=_appContext.SugerenciaCuidados.Add(sugerencia);

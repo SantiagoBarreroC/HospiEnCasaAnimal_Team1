@@ -9,12 +9,9 @@ namespace HECM.App.Persistencia{
     
     public class RepositorioMascota: IRepositorioMascota
     {
-        private readonly HECM.App.Persistencia.AppContext _appContext;
+        private readonly AppContext _appContext= new AppContext();
 
-        public RepositorioMascota(HECM.App.Persistencia.AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        
         Mascota IRepositorioMascota.AddMascota (Mascota mascota)
         {
            var mascotaAdicionado=_appContext.Mascotas.Add(mascota);
@@ -23,7 +20,7 @@ namespace HECM.App.Persistencia{
         }
         Mascota IRepositorioMascota.UpdateMascota (Mascota mascota)
         {
-           var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(m => m.Id ==mascota.Id);
+           var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(p => p.Id ==mascota.Id);
            if(mascotaEncontrado!=null) 
            {
                mascotaEncontrado.Id=mascota.Id;
@@ -42,9 +39,11 @@ namespace HECM.App.Persistencia{
            }
            return mascotaEncontrado;
         }
+      
         void IRepositorioMascota.DeleteMascota (int IdMascota)
         {
-           var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(m => m.Id ==IdMascota);
+           var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(p => p.Id ==IdMascota);
+           //var mascotaEncontrado=_appContext.Mascotas.Find(IdMascota);
            if(mascotaEncontrado==null)
            return;
            _appContext.Mascotas.Remove(mascotaEncontrado);
@@ -52,7 +51,7 @@ namespace HECM.App.Persistencia{
         }
         Mascota IRepositorioMascota.GetMascota (int IdMascota)
         {
-           var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(m => m.Id ==IdMascota);
+           var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(p => p.Id ==IdMascota);
            return mascotaEncontrado;
         }
         IEnumerable<Mascota> IRepositorioMascota.GetAllMascotas()

@@ -79,3 +79,7 @@ C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\bin\De
 C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\bin\Debug\netcoreapp3.1\HECM.App.Persistencia.dll
 C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\bin\Debug\netcoreapp3.1\HECM.App.Persistencia.pdb
 C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\bin\Debug\netcoreapp3.1\HECM.App.Dominio.pdb
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\MascotaIndex.cshtml.g.cs
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\Crear.cshtml.g.cs
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\Actualizar.cshtml.g.cs
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\Eliminar.cshtml.g.cs

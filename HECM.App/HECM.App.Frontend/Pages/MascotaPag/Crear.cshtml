@@ -1,0 +1,32 @@
+﻿@page
+@model HECM.App.Frontend.Pages.MascotaPag.CrearModel
+@{
+}
+<h1>Nueva Mascota</h1><br>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="mascota.Nombre"></label>
+        <input asp-for="mascota.Nombre" class="form-control " required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.TipoMascota"></label>
+        <input asp-for="mascota.TipoMascota" class="form-control " required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.Sexo"></label>
+        <input asp-for="mascota.Sexo" class="form-control" required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.Direccion"></label>
+        <input asp-for="mascota.Direccion" class="form-control" required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.FechaNacimiento"></label>
+        <input asp-for="mascota.FechaNacimiento" class="form-control" required="required">
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Crear Mascota
+    </button>
+</form>
