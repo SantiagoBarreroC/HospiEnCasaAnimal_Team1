@@ -58,5 +58,21 @@ namespace HECM.App.Persistencia{
         {
            return _appContext.Mascotas;
         }
+        void IRepositorioMascota.AddSignoVital(int IdMascota, SignoVital signoVital)
+        {
+           var mascota=_appContext.Mascotas.Find(IdMascota);
+           if (mascota !=null) 
+           {  
+               if (mascota.SignosVitales !=null)
+               {
+                   mascota.SignosVitales.Add(signoVital);
+               }             
+               else
+               {
+                   mascota.SignosVitales=new List<SignoVital>();
+                   mascota.SignosVitales.Add(signoVital);
+               }
+           }
+        }
     }
 }

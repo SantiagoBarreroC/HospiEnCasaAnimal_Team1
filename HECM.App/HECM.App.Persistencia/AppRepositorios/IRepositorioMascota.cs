@@ -11,7 +11,7 @@ namespace HECM.App.Persistencia
     Mascota UpdateMascota(Mascota mascota);
     void DeleteMascota(int IdMascota);
     Mascota GetMascota(int IdMascota);
-
+    void AddSignoVital (int IdMascota, SignoVital signoVital);
     }
     
 }

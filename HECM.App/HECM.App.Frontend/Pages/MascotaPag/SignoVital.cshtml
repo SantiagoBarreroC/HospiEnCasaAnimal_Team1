@@ -1,0 +1,35 @@
+﻿@page
+@model HECM.App.Frontend.Pages.MascotaPag.SignoVitalModel
+@{
+}
+<h1>Registro Signo Vital</h1>
+
+<form method="post">
+
+    @* <div class="form-group">
+        <label asp-for="signoVital.Id"></label>
+        <input asp-for="signoVital.Id" class="form-control" >
+    </div> *@
+
+    <div class="form-group">
+        <label asp-for="signoVital.FechaHora"></label>
+        <input asp-for="signoVital.FechaHora" class="form-control" >
+    </div>
+
+    <div class="form-group">
+        <label asp-for="signoVital.FrecuenciaRespiratoria"></label>
+        <input asp-for="signoVital.FrecuenciaRespiratoria" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="signoVital.FrecuenciaCardiaca"></label>
+        <input asp-for="signoVital.FrecuenciaCardiaca" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="signoVital.Temperatura"></label>
+        <input asp-for="signoVital.Temperatura" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar signo vital</button>
+</form>

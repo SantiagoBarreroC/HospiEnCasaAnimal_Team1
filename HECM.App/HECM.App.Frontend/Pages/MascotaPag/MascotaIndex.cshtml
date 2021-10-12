@@ -14,6 +14,7 @@
             <th scope= 'col'>Fecha de nacimiento</th>
             <th scope= 'col'>Actualizar</th>
             <th scope= 'col'>Eliminar</th>
+            <th scope= 'col'>Registrar signo vital</th>
         </tr>
     </thead>
     @foreach (var p in @Model.Mascotas)
@@ -25,6 +26,7 @@
             <td> @p.FechaNacimiento</td>
             <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@p.Id">Actualizar</a></td>
             <td><a class="btn btn-secondary" asp-page="./Eliminar" asp-route-id="@p.Id">Eliminar</a></td>
+            <td><a class="btn btn-secondary" asp-page="./SignoVital" asp-route-id="@p.Id">SignoVital</a></td>
         </tr>
     }
 </table>

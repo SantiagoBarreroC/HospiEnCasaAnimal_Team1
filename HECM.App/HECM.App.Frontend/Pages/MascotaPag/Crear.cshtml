@@ -1,31 +1,44 @@
 ﻿@page
+@using HECM.App.Dominio
 @model HECM.App.Frontend.Pages.MascotaPag.CrearModel
 @{
 }
 <h1>Nueva Mascota</h1><br>
 
 <form method="post">
+
     <div class="form-group">
         <label asp-for="mascota.Nombre"></label>
         <input asp-for="mascota.Nombre" class="form-control " required="required">
     </div>
     <div class="form-group">
         <label asp-for="mascota.TipoMascota"></label>
-        <input asp-for="mascota.TipoMascota" class="form-control " required="required">
-    </div>
-    <div class="form-group">
-        <label asp-for="mascota.Sexo"></label>
-        <input asp-for="mascota.Sexo" class="form-control" required="required">
-    </div>
-    <div class="form-group">
-        <label asp-for="mascota.Direccion"></label>
-        <input asp-for="mascota.Direccion" class="form-control" required="required">
+        <select asp-for="mascota.TipoMascota" asp-items="Html.GetEnumSelectList<TipoMascota>()" class="form-control" required="required"></select>
     </div>
     <div class="form-group">
         <label asp-for="mascota.FechaNacimiento"></label>
         <input asp-for="mascota.FechaNacimiento" class="form-control" required="required">
     </div>
-
+    <div class="form-group">
+        <label asp-for="mascota.Sexo"></label>
+        <select asp-for="mascota.Sexo" asp-items="Html.GetEnumSelectList<Sexo>()" class="form-control" required="required"></select>
+    </div> 
+    <div class="form-group">
+        <label asp-for="mascota.Direccion"></label>
+        <input asp-for="mascota.Direccion" class="form-control" required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.Latitud"></label>
+        <input asp-for="mascota.Latitud" class="form-control" required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="mascota.Longitud"></label>
+        <input asp-for="mascota.Longitud" class="form-control" required="required">
+    </div>
+    
+    <button class="btn btn-primary" asp-page=/.SignoVital>
+        Registrar signo vital 
+    </button>
     <button type="submit" class="btn btn-primary">
         Crear Mascota
     </button>
