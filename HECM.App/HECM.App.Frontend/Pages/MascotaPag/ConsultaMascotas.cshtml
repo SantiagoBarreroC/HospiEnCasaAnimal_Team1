@@ -4,7 +4,7 @@
 }
 <h1>Lista de mascotas </h1>
 
-<table>
+<table class='table'>
     <thead>
         <tr>
             <tr>
@@ -20,7 +20,6 @@
         </tr>
     </thead>
 
-</table>
 @foreach (var p in @Model.mascota)
 {
     <tr>
@@ -29,7 +28,8 @@
         <td>@p.TipoMascota </td>
         <td>@p.FechaNacimiento  </td>
         <td>@p.Sexo  </td>
-        <td><a asp-page="SignoVital">Signo Vital</a>  </td>
+        <td><a asp-page="SignoVital" asp-route-id="@p.Id">Signo Vital</a>  </td>
         
     </tr>
 }
+</table>

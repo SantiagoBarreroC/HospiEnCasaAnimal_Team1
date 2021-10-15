@@ -36,7 +36,7 @@ namespace HECM.App.Frontend.Pages.MascotaPag
         public IActionResult OnPost(int Id, SignoVital signoVital)
         {
             _repoMascota.AddSignoVital(Id,signoVital);
-            return RedirectToPage("MascotaIndex");
+            return RedirectToPage("ConsultaMascotas");
         }
     }
 }
