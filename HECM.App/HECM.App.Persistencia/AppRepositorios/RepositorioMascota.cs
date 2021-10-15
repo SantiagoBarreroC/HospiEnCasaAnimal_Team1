@@ -73,6 +73,23 @@ namespace HECM.App.Persistencia{
                    mascota.SignosVitales.Add(signoVital);
                }
            }
+            var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(p => p.Id ==mascota.Id);
+            if(mascotaEncontrado!=null) 
+           {
+               mascotaEncontrado.Id=mascota.Id;
+               mascotaEncontrado.Nombre=mascota.Nombre;
+               mascotaEncontrado.TipoMascota=mascota.TipoMascota;
+               mascotaEncontrado.FechaNacimiento=mascota.FechaNacimiento;
+               mascotaEncontrado.Sexo=mascota.Sexo;
+               mascotaEncontrado.Direccion=mascota.Direccion;
+               mascotaEncontrado.Latitud=mascota.Latitud;
+               mascotaEncontrado.Longitud=mascota.Longitud;
+               mascotaEncontrado.Propietario=mascota.Propietario;
+               mascotaEncontrado.Veterinario=mascota.Veterinario;
+               mascotaEncontrado.Historia=mascota.Historia;
+
+               _appContext.SaveChanges();
+           }
         }
     }
 }

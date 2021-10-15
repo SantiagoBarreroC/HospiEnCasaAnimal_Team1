@@ -27,7 +27,13 @@
             <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@p.Id">Actualizar</a></td>
             <td><a class="btn btn-secondary" asp-page="./Eliminar" asp-route-id="@p.Id">Eliminar</a></td>
             <td><a class="btn btn-secondary" asp-page="./SignoVital" asp-route-id="@p.Id">SignoVital</a></td>
+            
         </tr>
+            @* <button type="submit" class="btn btn-primary" asp-page="./ConsultaMAscota" asp-route-id="@p.Id">
+                Consultar Mascota
+            </button> *@
+    
     }
 </table>
+<a class="btn btn-primary" asp-page="./ConsultaMAscotas">Consulta Mascota</a>
 

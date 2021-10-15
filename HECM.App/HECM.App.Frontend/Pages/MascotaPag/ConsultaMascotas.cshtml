@@ -1,0 +1,35 @@
+﻿@page
+@model HECM.App.Frontend.Pages.MascotaPag.ConsultaMascotasModel
+@{
+}
+<h1>Lista de mascotas </h1>
+
+<table>
+    <thead>
+        <tr>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tipo de mascota</th>
+                <th scope="col">Fecha de nacimiento</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Signo vital</th>
+    
+               
+            </tr>
+        </tr>
+    </thead>
+
+</table>
+@foreach (var p in @Model.mascota)
+{
+    <tr>
+        <td>@p.Id</td>
+        <td>@p.Nombre</td>
+        <td>@p.TipoMascota </td>
+        <td>@p.FechaNacimiento  </td>
+        <td>@p.Sexo  </td>
+        <td><a asp-page="SignoVital">Signo Vital</a>  </td>
+        
+    </tr>
+}

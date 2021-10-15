@@ -84,3 +84,4 @@ C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\De
 C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\Actualizar.cshtml.g.cs
 C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\Eliminar.cshtml.g.cs
 C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\SignoVital.cshtml.g.cs
+C:\Users\Santiago\Desktop\Repositorio\Proyecto\HECM.App\HECM.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\MascotaPag\ConsultaMascotas.cshtml.g.cs
