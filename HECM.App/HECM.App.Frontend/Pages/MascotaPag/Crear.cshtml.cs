@@ -27,6 +27,7 @@ namespace HECM.App.Frontend.Pages.MascotaPag
         {
             _repoMascota.AddMascota(mascota);
             return RedirectToPage("MascotaIndex");
+            
         }
     }
 }
